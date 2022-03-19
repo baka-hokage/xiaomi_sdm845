@@ -151,4 +151,8 @@ public class DiracUtils {
         audioManager.setParameters("hifi_mode=" + (paramInt == 1 ? true : false));
         mDiracSound.setHifiMode(paramInt);
     }
+
+    public void setScenario(int sceneInt) {
+        mDiracSound.setScenario(sceneInt);
+    }
 }
