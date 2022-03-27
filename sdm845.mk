@@ -385,6 +385,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=true
