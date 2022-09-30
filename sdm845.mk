@@ -102,7 +102,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio@2.1-impl:32 \
     audio.bluetooth.default \
-    libbthost_if \
     libldacBT_enc \
     libldacBT_dec \
     libldacBT_abr \
@@ -155,7 +154,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libqdMetaData \
     libtinyxml \
-    libtinyxml.vendor \
     memtrack.sdm845 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
@@ -311,7 +309,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
-    libjson.vendor \
     librmnetctl
 
 # Recovery
